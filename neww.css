@@ -1,0 +1,65 @@
+body {
+	background: yellow;
+	text-align:center;
+}
+
+.green { background-color: pink;}
+.blue { background-color: blue; }
+
+#main {
+	width: 1000px;
+	height: 600px;
+	background: red;
+	margin: 25px auto;
+	border: solid 2px #ff3819;
+	padding: 10px;
+}
+h1 {
+	text-align: center;
+	font-family:"Times New Roman";
+	font: 24pt;
+	color:orange;
+}
+hr {
+	height: 2px;
+	color: black;
+}
+p { 
+	font-family:"Calibri";
+	font-size: 12pt;
+	text-align: left;
+	text-indent: 48px;
+	color: white;
+}
+table { 
+	 
+		border: 2px solid green;
+		background-color: solid white;
+	}
+	tbody {
+		
+		color: pink;
+	}
+	tfoot{
+		
+		color: purple; 
+	}
+	thead{
+		
+		color: orange;
+	}
+	tr {
+		border: 2px solid green;
+		
+	}
+	th {
+		border: 2px solid green;
+		
+	}
+.form-row{
+	display: flex;
+}
+
+.form-row input {
+	flex:1;
+}
